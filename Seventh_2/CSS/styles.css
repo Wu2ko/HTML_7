@@ -1,0 +1,68 @@
+*{
+flex-grow: 1;
+padding: 5px;
+}
+body{
+
+	width: 80%;
+	margin: 10px auto;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	background-color: lightblue;
+
+}
+main{
+	display: flex;
+	align-items: center;
+
+
+}
+.herobar{
+	display: flex;
+		flex-direction: column;
+
+}
+.hero{
+
+	background-color: grey;
+
+}
+.sidebar{
+	background-color: lightgreen;
+
+}
+.contentbar{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2.5;
+
+}
+.content{
+	background-color: lightyellow;
+
+}
+.extra{
+	background-color: darkgrey;
+
+}
+.relatable{
+	display: flex;
+	
+}
+.images{
+	background-color: green;
+	flex-grow: 2.5;
+
+}
+.posts{
+	background-color: pink;
+
+}
+footer{
+	display: flex;
+	justify-content: center;
+	background-color: orange;
+}

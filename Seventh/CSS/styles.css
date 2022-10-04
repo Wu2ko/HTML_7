@@ -1,0 +1,63 @@
+/*Base*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*makes padding part of container*/
+}
+/*Layout*/
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #eee;
+}
+
+/*header*/
+header{
+	height: 150px;
+	background-color: #dd88ee;
+}
+header h1{
+	text-align: center;
+	line-height: 140px;
+	text-transform: uppercase;
+}
+
+/*Nav*/
+
+nav{
+	background-color: #ee88ff;
+}
+nav ul{
+	fl
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px;
+}
+nav ul li a{
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+
+/*Content*/
+
+.wrapper{
+	background-color: #eedd88;
+	float: left;
+	width: 70%;
+	padding: 20px;
+	min-height: 200px;
+}
+aside {
+	background-color: #ddff00;
+	float: right;
+	width: 30%;
+	padding: 10px;
+	min-height: 300px;
+}
+footer{
+	clear: both;
+}
